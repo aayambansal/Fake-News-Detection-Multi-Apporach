@@ -9,7 +9,8 @@ This project is an AI-driven system for real-time detection and mitigation of fa
 
 ## Directory Structure
 
-##fake_news_detection/
+```bash
+fake_news_detection/
 │
 ├── data/
 │   └── preprocess.py      # Data preprocessing scripts for cleaning and normalizing text
@@ -36,8 +37,7 @@ This project is an AI-driven system for real-time detection and mitigation of fa
 │
 ├── requirements.txt        # Python dependencies
 └── main.py                 # Main entry point for the system
-
-
+```
 
 ## Key Features
 
@@ -45,13 +45,13 @@ This project is an AI-driven system for real-time detection and mitigation of fa
    - Detects fake news in real-time from social media and news articles using multi-source verification.
    - Achieves processing latency of less than 1.5 seconds per item.
 
-2. **Linguistic Analysis**:
+3. **Linguistic Analysis**:
    - Extracts various linguistic features, such as sentiment, readability, and named entity recognition.
 
-3. **Multi-Source Verification**:
+4. **Multi-Source Verification**:
    - Cross-references claims against multiple reputable sources for better accuracy.
 
-4. **Machine Learning Models**:
+5. **Machine Learning Models**:
    - Combines Gradient Boosting and BERT models for accurate fake news detection.
    - Accuracy: 89% on the LIAR dataset.
 
@@ -62,22 +62,22 @@ This project is an AI-driven system for real-time detection and mitigation of fa
 ```bash
 git clone https://github.com/aayambansal/Fake-News-Detection-Multi-Apporach.git
 cd Fake-News-Detection-Multi-Apporach
-
+```
 2. Install Dependencies
 Make sure you have Python 3.x installed. Then, install the necessary libraries:
-
+```bash
 pip install -r requirements.txt
-
+```
 3. Run the Web Application
 To start the Flask web application for testing fake news detection, run:
-
+```bash
 python main.py
-
+```
 4. Streaming Real-Time Twitter Data
 To start streaming and processing tweets in real-time, use the following command:
-
+```bash
 python social_media/twitter_streamer.py
-
+```
 Components
 1. Preprocessing
 File: data/preprocess.py
