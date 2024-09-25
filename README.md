@@ -9,7 +9,7 @@ This project is an AI-driven system for real-time detection and mitigation of fa
 
 ## Directory Structure
 
-fake_news_detection/
+##fake_news_detection/
 │
 ├── data/
 │   └── preprocess.py      # Data preprocessing scripts for cleaning and normalizing text
